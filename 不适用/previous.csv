@@ -1,0 +1,27 @@
+android.animation.AnimatorSet,void playSequentially(List<Animator> items), Sets up this AnimatorSet to play each of the supplied animations when the previous animation ends.
+android.animation.AnimatorSet,void playSequentially(Animator... items), Sets up this AnimatorSet to play each of the supplied animations when the previous animation ends.
+android.app.Fragment,"void onActivityResult(int requestCode, int resultCode, Intent data)"," Receive the result from a previous call to startActivityForResult(Intent, int)."
+android.media.MediaCodec,void setVideoScalingMode(int mode)," If a surface has been specified in a previous call to configure(MediaFormat, Surface, MediaCrypto, int) specifies the scaling mode to use."
+android.media.session.MediaController.TransportControls,void skipToPrevious(), Skip to the previous item.
+android.media.session.MediaSession.Callback,void onSkipToPrevious(), Override to handle requests to skip to the previous media item.
+android.view.MotionEvent,"float getHistoricalAxisValue(int axis, int pointerIndex, int pos)"," Returns the historical value of the requested axis, as per getAxisValue(int, int), occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,long getHistoricalEventTime(int pos)," Returns the time that a historical movement occurred between this event and the previous event, in the uptimeMillis() time base."
+android.view.MotionEvent,"float getHistoricalOrientation(int pointerIndex, int pos)"," Returns a historical orientation coordinate, as per getOrientation(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"void getHistoricalPointerCoords(int pointerIndex, int pos, MotionEvent.PointerCoords outPointerCoords)"," Populates a MotionEvent.PointerCoords object with historical pointer coordinate data, as per getPointerCoords(int, MotionEvent.PointerCoords), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalPressure(int pointerIndex, int pos)"," Returns a historical pressure coordinate, as per getPressure(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalSize(int pointerIndex, int pos)"," Returns a historical size coordinate, as per getSize(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalToolMajor(int pointerIndex, int pos)"," Returns a historical tool major axis coordinate, as per getToolMajor(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalToolMinor(int pointerIndex, int pos)"," Returns a historical tool minor axis coordinate, as per getToolMinor(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalTouchMajor(int pointerIndex, int pos)"," Returns a historical touch major axis coordinate, as per getTouchMajor(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalTouchMinor(int pointerIndex, int pos)"," Returns a historical touch minor axis coordinate, as per getTouchMinor(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalX(int pointerIndex, int pos)"," Returns a historical X coordinate, as per getX(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalY(int pointerIndex, int pos)"," Returns a historical Y coordinate, as per getY(int), that occurred between this event and the previous event for the given pointer."
+android.view.ScaleGestureDetector,float getPreviousSpan(), Return the previous average distance between each of the pointers forming the gesture in progress through the focal point.
+android.view.ScaleGestureDetector,float getPreviousSpanX(), Return the previous average X distance between each of the pointers forming the gesture in progress through the focal point.
+android.view.ScaleGestureDetector,float getPreviousSpanY(), Return the previous average Y distance between each of the pointers forming the gesture in progress through the focal point.
+android.view.ScaleGestureDetector,float getScaleFactor(), Return the scaling factor from the previous scale event to the current event.
+android.view.ScaleGestureDetector,long getTimeDelta(), Return the time difference in milliseconds between the previous accepted scaling event and the current scaling event.
+android.view.textclassifier.logging.SelectionEvent,long getDurationSincePreviousEvent(), Returns the duration in ms between when this event was triggered and when the previous event in the selection session was triggered.
+android.webkit.WebChromeClient,void onGeolocationPermissionsHidePrompt()," Notify the host application that a request for Geolocation permissions, made with a previous call to onGeolocationPermissionsShowPrompt() has been canceled."
+android.webkit.WebView,void onResume(), Resumes a WebView after a previous call to onPause().
+android.webkit.WebViewClient,"void onPageCommitVisible(WebView view, String url)", Notify the host application that WebView content left over from previous page navigations will no longer be drawn.

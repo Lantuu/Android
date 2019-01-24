@@ -1,0 +1,4 @@
+android.view.accessibility.AccessibilityRecord,int getFromIndex()," Gets the index of the first character of the changed sequence, or the beginning of a text selection or the index of the first visible item when scrolling."
+android.view.accessibility.AccessibilityRecord,void setFromIndex(int fromIndex), Sets the index of the first character of the changed sequence or the beginning of a text selection or the index of the first visible item when scrolling.
+android.view.ScaleGestureDetector.OnScaleGestureListener,abstract boolean onScaleBegin(ScaleGestureDetector detector), Responds to the beginning of a scaling gesture.
+android.view.ScaleGestureDetector.SimpleOnScaleGestureListener,boolean onScaleBegin(ScaleGestureDetector detector), Responds to the beginning of a scaling gesture.

@@ -1,0 +1,2 @@
+android.media.MediaCodecInfo.CodecCapabilities,int getMaxSupportedInstances(), Returns the max number of the supported concurrent codec instances.
+android.media.MediaDrm,List<byte[]> getSecureStops(), Secure stops are a way to enforce limits on the number of concurrent streams per subscriber across devices.

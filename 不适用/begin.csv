@@ -1,0 +1,6 @@
+android.app.Activity,void startPostponedEnterTransition(), Begin postponed transitions after postponeEnterTransition() was called.
+android.app.Fragment,void startPostponedEnterTransition(), Begin postponed transitions after postponeEnterTransition() was called.
+android.media.MediaRecorder,void prepare(), Prepares the recorder to begin capturing and encoding data.
+android.media.session.MediaSession.Callback,void onPlay(), Override to handle requests to begin playback.
+android.media.session.MediaSession.Callback,"void onPlayFromSearch(String query, Bundle extras)", Override to handle requests to begin playback from a search query.
+android.view.View,boolean startNestedScroll(int axes), Begin a nestable scroll operation along the given axes.

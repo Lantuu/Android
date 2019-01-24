@@ -1,0 +1,52 @@
+android.app.ActionBar,void setHomeAsUpIndicator(int resId), Set an alternate drawable to display next to the icon/logo/title when DISPLAY_HOME_AS_UP is enabled.
+android.app.ActionBar,void setHomeAsUpIndicator(Drawable indicator), Set an alternate drawable to display next to the icon/logo/title when DISPLAY_HOME_AS_UP is enabled.
+android.app.Activity,"void overridePendingTransition(int enterAnim, int exitAnim)", Call immediately after one of the flavors of startActivity(Intent) or finish() to specify an explicit transition animation to perform next.
+android.media.ImageReader,Image acquireNextImage(), Acquire the next Image from the ImageReader's queue.
+android.media.ImageWriter,Image dequeueInputImage(), Dequeue the next available input Image for the application to produce data into.
+android.media.MediaExtractor,boolean advance(), Advance to the next sample.
+android.media.MediaPlayer2,abstract void setNextPlaylistItem(int index), Sets the index of next-to-be-played DataSourceDesc in the play list.
+android.media.MediaRecorder,void setNextOutputFile(File file), Sets the next output file to be used when the maximum filesize is reached on the prior output setOutputFile(File) or setNextOutputFile(File)).
+android.media.MediaRecorder,void setNextOutputFile(FileDescriptor fd), Sets the next output file descriptor to be used when the maximum filesize is reached on the prior output setOutputFile(File) or setNextOutputFile(File)).
+android.media.session.MediaController.TransportControls,void skipToNext(), Skip to the next item.
+android.media.session.MediaSession.Callback,void onSkipToNext(), Override to handle requests to skip to the next media item.
+android.media.tv.TvContract,static Uri buildWatchNextProgramUri(long watchNextProgramId), Builds a URI that points to a specific watch next program.
+android.media.tv.TvView,boolean dispatchKeyEvent(KeyEvent event), Dispatch a key event to the next view on the focus path.
+android.media.tv.TvView,boolean dispatchUnhandledInputEvent(InputEvent event), Dispatches an unhandled input event to the next receiver.
+android.net.RouteInfo,InetAddress getGateway(), Retrieves the gateway or next hop InetAddress for this route.
+android.net.SSLCertificateSocketFactory,byte[] getNpnSelectedProtocol(Socket socket)," Returns the Next Protocol Negotiation (NPN) protocol selected by client and server, or null if no protocol was negotiated."
+android.net.SSLCertificateSocketFactory,void setNpnProtocols(byte[][] npnProtocols), Sets the Next Protocol Negotiation (NPN) protocols that this peer is interested in.
+android.view.Choreographer,void postFrameCallback(Choreographer.FrameCallback callback), Posts a frame callback to run on the next frame.
+android.view.Choreographer,"void postFrameCallbackDelayed(Choreographer.FrameCallback callback, long delayMillis)", Posts a frame callback to run on the next frame after the specified delay.
+android.view.FocusFinder,"final View findNextFocus(ViewGroup root, View focused, int direction)"," Find the next view to take focus in root's descendants, starting from the view that currently is focused."
+android.view.FocusFinder,"View findNextFocusFromRect(ViewGroup root, Rect focusedRect, int direction)"," Find the next view to take focus in root's descendants, searching from a particular rectangle in root's coordinates."
+android.view.FocusFinder,"View findNextKeyboardNavigationCluster(View root, View currentCluster, int direction)", Find the root of the next keyboard navigation cluster after the current one.
+android.view.View,boolean dispatchKeyEvent(KeyEvent event), Dispatch a key event to the next view on the focus path.
+android.view.View,void forceLayout(), Forces this view to be laid out during the next layout pass.
+android.view.View,void getFocusedRect(Rect r)," When a view has focus and the user navigates away from it, the next view is searched for starting from the rectangle filled in by this method."
+android.view.View,int getNextClusterForwardId(), Gets the id of the root of the next keyboard navigation cluster.
+android.view.View,int getNextFocusDownId(), Gets the id of the view to use when the next focus is FOCUS_DOWN.
+android.view.View,int getNextFocusForwardId(), Gets the id of the view to use when the next focus is FOCUS_FORWARD.
+android.view.View,int getNextFocusLeftId(), Gets the id of the view to use when the next focus is FOCUS_LEFT.
+android.view.View,int getNextFocusRightId(), Gets the id of the view to use when the next focus is FOCUS_RIGHT.
+android.view.View,int getNextFocusUpId(), Gets the id of the view to use when the next focus is FOCUS_UP.
+android.view.View,boolean isLayoutRequested(), Indicates whether or not this view's layout will be requested during the next hierarchy layout pass.
+android.view.View,"void postInvalidateOnAnimation(int left, int top, int right, int bottom)"," Cause an invalidate of the specified area to happen on the next animation time step, typically the next display frame."
+android.view.View,void postInvalidateOnAnimation()," Cause an invalidate to happen on the next animation time step, typically the next display frame."
+android.view.View,void postOnAnimation(Runnable action), Causes the Runnable to execute on the next animation time step.
+android.view.View,"void postOnAnimationDelayed(Runnable action, long delayMillis)"," Causes the Runnable to execute on the next animation time step, after the specified amount of time elapses."
+android.view.View,void setAnimation(Animation animation), Sets the next animation to play for this view.
+android.view.View,void setNextClusterForwardId(int nextClusterForwardId), Sets the id of the view to use as the root of the next keyboard navigation cluster.
+android.view.View,void setNextFocusDownId(int nextFocusDownId), Sets the id of the view to use when the next focus is FOCUS_DOWN.
+android.view.View,void setNextFocusForwardId(int nextFocusForwardId), Sets the id of the view to use when the next focus is FOCUS_FORWARD.
+android.view.View,void setNextFocusLeftId(int nextFocusLeftId), Sets the id of the view to use when the next focus is FOCUS_LEFT.
+android.view.View,void setNextFocusRightId(int nextFocusRightId), Sets the id of the view to use when the next focus is FOCUS_RIGHT.
+android.view.View,void setNextFocusUpId(int nextFocusUpId), Sets the id of the view to use when the next focus is FOCUS_UP.
+android.view.View,void setTooltipText(CharSequence tooltipText), Sets the tooltip text which will be displayed in a small popup next to the view.
+android.view.ViewGroup,boolean dispatchKeyEvent(KeyEvent event), Dispatch a key event to the next view on the focus path.
+android.view.ViewGroup,void scheduleLayoutAnimation(), Schedules the layout animation to be played after the next layout pass of this view group.
+android.view.ViewPropertyAnimator,ViewPropertyAnimator withEndAction(Runnable runnable), Specifies an action to take place when the next animation ends.
+android.view.ViewPropertyAnimator,ViewPropertyAnimator withLayer(), The View associated with this ViewPropertyAnimator will have its layer type set to LAYER_TYPE_HARDWARE for the duration of the next animation.
+android.view.ViewPropertyAnimator,ViewPropertyAnimator withStartAction(Runnable runnable), Specifies an action to take place when the next animation runs.
+android.webkit.WebView,boolean dispatchKeyEvent(KeyEvent event), Dispatch a key event to the next view on the focus path.
+android.webkit.WebView,void findNext(boolean forward)," Highlights and scrolls to the next match found by findAllAsync(String), wrapping around page boundaries as necessary."
+android.webkit.WebView.VisualStateCallback,abstract void onComplete(long requestId), Invoked when the visual state is ready to be drawn in the next onDraw(Canvas).

@@ -1,0 +1,82 @@
+android.animation.ArgbEvaluator,"Object evaluate(float fraction, Object startValue, Object endValue)", This function returns the calculated in-between value for a color given integers that represent the start and end values in the four bytes of the 32-bit int.
+android.animation.FloatEvaluator,"Float evaluate(float fraction, Number startValue, Number endValue)"," This function returns the result of linearly interpolating the start and end values, with fraction representing the proportion between the start and end values."
+android.animation.IntEvaluator,"Integer evaluate(float fraction, Integer startValue, Integer endValue)"," This function returns the result of linearly interpolating the start and end values, with fraction representing the proportion between the start and end values."
+android.animation.LayoutTransition,long getStagger(int transitionType), Gets the length of time to delay between starting each animation during one of the change animations.
+android.animation.LayoutTransition,"void setStagger(int transitionType, long duration)", Sets the length of time to delay between starting each animation during one of the change animations.
+android.animation.ObjectAnimator,"static ObjectAnimator ofArgb(Object target, String propertyName, int... values)", Constructs and returns an ObjectAnimator that animates between color values.
+android.animation.ObjectAnimator,"static <T> ObjectAnimator ofArgb(T target, Property<T,Integer> property, int... values)", Constructs and returns an ObjectAnimator that animates between color values.
+android.animation.ObjectAnimator,"static <T> ObjectAnimator ofFloat(T target, Property<T,Float> property, float... values)", Constructs and returns an ObjectAnimator that animates between float values.
+android.animation.ObjectAnimator,"static ObjectAnimator ofFloat(Object target, String propertyName, float... values)", Constructs and returns an ObjectAnimator that animates between float values.
+android.animation.ObjectAnimator,"static <T> ObjectAnimator ofInt(T target, Property<T,Integer> property, int... values)", Constructs and returns an ObjectAnimator that animates between int values.
+android.animation.ObjectAnimator,"static ObjectAnimator ofInt(Object target, String propertyName, int... values)", Constructs and returns an ObjectAnimator that animates between int values.
+android.animation.ObjectAnimator,"static <T,V> ObjectAnimator ofObject(T target, Property<T,V> property, TypeEvaluator<V> evaluator, V... values)", Constructs and returns an ObjectAnimator that animates between Object values.
+android.animation.ObjectAnimator,"static <T,V,P> ObjectAnimator ofObject(T target, Property<T,P> property, TypeConverter<V,P> converter, TypeEvaluator<V> evaluator, V... values)", Constructs and returns an ObjectAnimator that animates between Object values.
+android.animation.ObjectAnimator,"static ObjectAnimator ofObject(Object target, String propertyName, TypeEvaluator evaluator, Object... values)", Constructs and returns an ObjectAnimator that animates between Object values.
+android.animation.ObjectAnimator,"static ObjectAnimator ofPropertyValuesHolder(Object target, PropertyValuesHolder... values)", Constructs and returns an ObjectAnimator that animates between the sets of values specified in PropertyValueHolder objects.
+android.animation.ObjectAnimator,void setFloatValues(float... values), Sets float values that will be animated between.
+android.animation.ObjectAnimator,void setIntValues(int... values), Sets int values that will be animated between.
+android.animation.ObjectAnimator,void setObjectValues(Object... values), Sets the values to animate between for this animation.
+android.animation.PointFEvaluator,"PointF evaluate(float fraction, PointF startValue, PointF endValue)"," This function returns the result of linearly interpolating the start and end PointF values, with fraction representing the proportion between the start and end values."
+android.animation.RectEvaluator,"Rect evaluate(float fraction, Rect startValue, Rect endValue)"," This function returns the result of linearly interpolating the start and end Rect values, with fraction representing the proportion between the start and end values."
+android.animation.TypeEvaluator,"abstract T evaluate(float fraction, T startValue, T endValue)"," This function returns the result of linearly interpolating the start and end values, with fraction representing the proportion between the start and end values."
+android.animation.ValueAnimator,static long getFrameDelay()," The amount of time, in milliseconds, between each frame of the animation."
+android.animation.ValueAnimator,PropertyValuesHolder[] getValues(), Returns the values that this ValueAnimator animates between.
+android.animation.ValueAnimator,static ValueAnimator ofArgb(int... values), Constructs and returns a ValueAnimator that animates between color values.
+android.animation.ValueAnimator,static ValueAnimator ofFloat(float... values), Constructs and returns a ValueAnimator that animates between float values.
+android.animation.ValueAnimator,static ValueAnimator ofInt(int... values), Constructs and returns a ValueAnimator that animates between int values.
+android.animation.ValueAnimator,"static ValueAnimator ofObject(TypeEvaluator evaluator, Object... values)", Constructs and returns a ValueAnimator that animates between Object values.
+android.animation.ValueAnimator,static ValueAnimator ofPropertyValuesHolder(PropertyValuesHolder... values), Constructs and returns a ValueAnimator that animates between the values specified in the PropertyValuesHolder objects.
+android.animation.ValueAnimator,void setFloatValues(float... values), Sets float values that will be animated between.
+android.animation.ValueAnimator,static void setFrameDelay(long frameDelay)," The amount of time, in milliseconds, between each frame of the animation."
+android.animation.ValueAnimator,void setIntValues(int... values), Sets int values that will be animated between.
+android.animation.ValueAnimator,void setObjectValues(Object... values), Sets the values to animate between for this animation.
+android.animation.ValueAnimator,void setValues(PropertyValuesHolder... values)," Sets the values, per property, being animated between."
+android.media.audiofx.EnvironmentalReverb,void setReverbDelay(int reverbDelay), Sets the time between the first reflection and the reverberation.
+android.media.FaceDetector.Face,float confidence(), Returns a confidence factor between 0 and 1.
+android.media.FaceDetector.Face,float eyesDistance(), Returns the distance between the eyes.
+android.media.FaceDetector.Face,void getMidPoint(PointF point), Sets the position of the mid-point between the eyes.
+android.media.Image.Plane,abstract int getPixelStride()," The distance between adjacent pixel samples, in bytes."
+android.media.MediaDrm,"MediaDrm.KeyRequest getKeyRequest(byte[] scope, byte[] init, String mimeType, int keyType, HashMap<String,String> optionalParameters)", A key request/response exchange occurs between the app and a license server to obtain or release keys used to decrypt encrypted content.
+android.media.MediaDrm,MediaDrm.ProvisionRequest getProvisionRequest(), A provision request/response exchange occurs between the app and a provisioning server to retrieve a device certificate.
+android.media.MediaPlayer,"MediaDrm.KeyRequest getKeyRequest(byte[] keySetId, byte[] initData, String mimeType, int keyType, Map<String,String> optionalParameters)", A key request/response exchange occurs between the app and a license server to obtain or release keys used to decrypt encrypted content.
+android.media.MediaPlayer2,"abstract MediaDrm.KeyRequest getKeyRequest(byte[] keySetId, byte[] initData, String mimeType, int keyType, Map<String,String> optionalParameters)", A key request/response exchange occurs between the app and a license server to obtain or release keys used to decrypt encrypted content.
+android.net.Uri,abstract String getEncodedSchemeSpecificPart()," Gets the scheme-specific part of this URI, i.e.everything between the scheme separator ':' and the fragment separator '#'."
+android.net.Uri,abstract String getSchemeSpecificPart()," Gets the scheme-specific part of this URI, i.e.everything between the scheme separator ':' and the fragment separator '#'."
+android.net.wifi.WifiManager,"void startLocalOnlyHotspot(WifiManager.LocalOnlyHotspotCallback callback, Handler handler)", Request a local only hotspot that an application can use to communicate between co-located devices connected to the created WiFi hotspot.
+android.view.accessibility.AccessibilityRecord,int getScrollDeltaX(), Gets the difference in pixels between the horizontal position before the scroll and the current horizontal position
+android.view.accessibility.AccessibilityRecord,int getScrollDeltaY(), Gets the difference in pixels between the vertical position before the scroll and the current vertical position
+android.view.accessibility.AccessibilityRecord,void setScrollDeltaX(int scrollDeltaX), Sets the difference in pixels between the horizontal position before the scroll and the current horizontal position
+android.view.accessibility.AccessibilityRecord,void setScrollDeltaY(int scrollDeltaY), Sets the difference in pixels between the vertical position before the scroll and the current vertical position
+android.view.animation.LayoutAnimationController,Interpolator getInterpolator(), Returns the interpolator used to interpolate the delays between the children.
+android.view.animation.LayoutAnimationController,"void setInterpolator(Context context, int resourceID)", Sets the interpolator used to interpolate the delays between the children.
+android.view.animation.LayoutAnimationController,void setInterpolator(Interpolator interpolator), Sets the interpolator used to interpolate the delays between the children.
+android.view.InputDevice.MotionRange,float getRange(), Gets the range of the axis (difference between maximum and minimum).
+android.view.inputmethod.InputConnection,abstract void closeConnection(), Called by the system up to only once to notify that the system is about to invalidate connection between the input method and the application.
+android.view.inputmethod.InputConnection,abstract boolean reportFullscreenMode(boolean enabled), Called back when the connected IME switches between fullscreen and normal modes.
+android.view.inputmethod.InputConnectionWrapper,void closeConnection(), Called by the system up to only once to notify that the system is about to invalidate connection between the input method and the application.
+android.view.inputmethod.InputConnectionWrapper,boolean reportFullscreenMode(boolean enabled), Called back when the connected IME switches between fullscreen and normal modes.
+android.view.MotionEvent,"float getHistoricalAxisValue(int axis, int pointerIndex, int pos)"," Returns the historical value of the requested axis, as per getAxisValue(int, int), occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,long getHistoricalEventTime(int pos)," Returns the time that a historical movement occurred between this event and the previous event, in the uptimeMillis() time base."
+android.view.MotionEvent,"float getHistoricalOrientation(int pointerIndex, int pos)"," Returns a historical orientation coordinate, as per getOrientation(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"void getHistoricalPointerCoords(int pointerIndex, int pos, MotionEvent.PointerCoords outPointerCoords)"," Populates a MotionEvent.PointerCoords object with historical pointer coordinate data, as per getPointerCoords(int, MotionEvent.PointerCoords), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalPressure(int pointerIndex, int pos)"," Returns a historical pressure coordinate, as per getPressure(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalSize(int pointerIndex, int pos)"," Returns a historical size coordinate, as per getSize(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalToolMajor(int pointerIndex, int pos)"," Returns a historical tool major axis coordinate, as per getToolMajor(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalToolMinor(int pointerIndex, int pos)"," Returns a historical tool minor axis coordinate, as per getToolMinor(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalTouchMajor(int pointerIndex, int pos)"," Returns a historical touch major axis coordinate, as per getTouchMajor(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalTouchMinor(int pointerIndex, int pos)"," Returns a historical touch minor axis coordinate, as per getTouchMinor(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalX(int pointerIndex, int pos)"," Returns a historical X coordinate, as per getX(int), that occurred between this event and the previous event for the given pointer."
+android.view.MotionEvent,"float getHistoricalY(int pointerIndex, int pos)"," Returns a historical Y coordinate, as per getY(int), that occurred between this event and the previous event for the given pointer."
+android.view.ScaleGestureDetector,float getCurrentSpan(), Return the average distance between each of the pointers forming the gesture in progress through the focal point.
+android.view.ScaleGestureDetector,float getCurrentSpanX(), Return the average X distance between each of the pointers forming the gesture in progress through the focal point.
+android.view.ScaleGestureDetector,float getCurrentSpanY(), Return the average Y distance between each of the pointers forming the gesture in progress through the focal point.
+android.view.ScaleGestureDetector,float getPreviousSpan(), Return the previous average distance between each of the pointers forming the gesture in progress through the focal point.
+android.view.ScaleGestureDetector,float getPreviousSpanX(), Return the previous average X distance between each of the pointers forming the gesture in progress through the focal point.
+android.view.ScaleGestureDetector,float getPreviousSpanY(), Return the previous average Y distance between each of the pointers forming the gesture in progress through the focal point.
+android.view.ScaleGestureDetector,long getTimeDelta(), Return the time difference in milliseconds between the previous accepted scaling event and the current scaling event.
+android.view.textclassifier.logging.SelectionEvent,long getDurationSincePreviousEvent(), Returns the duration in ms between when this event was triggered and when the previous event in the selection session was triggered.
+android.view.textclassifier.logging.SelectionEvent,long getDurationSinceSessionStart(), Returns the duration in ms between when this event was triggered and when the first event in the selection session was triggered.
+android.view.View,final boolean isTemporarilyDetached(), Tells whether the View is in the state between onStartTemporaryDetach() and onFinishTemporaryDetach().
+android.webkit.WebView,boolean canZoomIn()," This method was deprecated in API level 17. This method is prone to inaccuracy due to race conditions between the web rendering and UI threads; prefer onScaleChanged(WebView, float, float)."
+android.webkit.WebView,boolean canZoomOut()," This method was deprecated in API level 17. This method is prone to inaccuracy due to race conditions between the web rendering and UI threads; prefer onScaleChanged(WebView, float, float)."
+android.webkit.WebView,float getScale()," This method was deprecated in API level 17. This method is prone to inaccuracy due to race conditions between the web rendering and UI threads; prefer onScaleChanged(WebView, float, float)."

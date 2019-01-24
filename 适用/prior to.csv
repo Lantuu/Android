@@ -1,0 +1,1 @@
+android.app.Activity,void onStateNotSaved()," Called when an onResume() is coming up, prior to other pre-resume callbacks such as onNewIntent(Intent) and onActivityResult(int, int, Intent).",activity

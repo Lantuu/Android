@@ -1,0 +1,45 @@
+android.animation.Animator.AnimatorListener,abstract void onAnimationEnd(Animator animation), Notifies the end of the animation.
+android.animation.Animator.AnimatorListener,"default void onAnimationEnd(Animator animation, boolean isReverse)", Notifies the end of the animation.
+android.animation.Animator,void addListener(Animator.AnimatorListener listener)," Adds a listener to the set of listeners that are sent events through the life of an animation, such as start, repeat, and end."
+android.animation.AnimatorListenerAdapter,void onAnimationEnd(Animator animation), Notifies the end of the animation.
+android.animation.ArgbEvaluator,"Object evaluate(float fraction, Object startValue, Object endValue)", This function returns the calculated in-between value for a color given integers that represent the start and end values in the four bytes of the 32-bit int.
+android.animation.FloatEvaluator,"Float evaluate(float fraction, Number startValue, Number endValue)"," This function returns the result of linearly interpolating the start and end values, with fraction representing the proportion between the start and end values."
+android.animation.IntEvaluator,"Integer evaluate(float fraction, Integer startValue, Integer endValue)"," This function returns the result of linearly interpolating the start and end values, with fraction representing the proportion between the start and end values."
+android.animation.PointFEvaluator,"PointF evaluate(float fraction, PointF startValue, PointF endValue)"," This function returns the result of linearly interpolating the start and end PointF values, with fraction representing the proportion between the start and end values."
+android.animation.RectEvaluator,"Rect evaluate(float fraction, Rect startValue, Rect endValue)"," This function returns the result of linearly interpolating the start and end Rect values, with fraction representing the proportion between the start and end values."
+android.animation.TypeEvaluator,"abstract T evaluate(float fraction, T startValue, T endValue)"," This function returns the result of linearly interpolating the start and end values, with fraction representing the proportion between the start and end values."
+android.animation.ValueAnimator,int getRepeatMode(), Defines what this animation should do when it reaches the end.
+android.animation.ValueAnimator,void setRepeatMode(int value), Defines what this animation should do when it reaches the end.
+android.app.ActionBar.LayoutParams,int getMarginEnd(), Returns the end margin in pixels.
+android.app.ActionBar.LayoutParams,void setMarginEnd(int end), Sets the relative end margin.
+android.media.DataSourceDesc.Builder,DataSourceDesc.Builder setEndPosition(long position), Sets the end position in milliseconds at which the playback will end.
+android.media.DataSourceDesc,long getEndPosition(), Return the position in milliseconds at which the playback will end.
+android.media.MediaCodec,void signalEndOfInputStream(), Signals end-of-stream on input.
+android.media.MediaExtractor,boolean hasCacheReachedEndOfStream()," Returns true iff we are caching data and the cache has reached the end of the data stream (for now, a future seek may of course restart the fetching of data)."
+android.media.MediaPlayer.OnCompletionListener,abstract void onCompletion(MediaPlayer mp), Called when the end of a media source is reached during playback.
+android.media.MediaPlayer,void setOnCompletionListener(MediaPlayer.OnCompletionListener listener), Register a callback to be invoked when the end of a media source has been reached during playback.
+android.media.VolumeShaper.Configuration.Builder,VolumeShaper.Configuration.Builder reflectTimes(), Reflects the volume curve so that the shaper changes volume from the end to the start.
+android.media.VolumeShaper.Configuration.Builder,VolumeShaper.Configuration.Builder scaleToEndVolume(float volume), Scale the curve end volume to a target value.
+android.view.accessibility.AccessibilityEvent,void appendRecord(AccessibilityRecord record), Appends an AccessibilityRecord to the end of event records.
+android.view.accessibility.AccessibilityNodeInfo,int getTextSelectionEnd(), Gets the text selection end if text is selected.
+android.view.accessibility.AccessibilityNodeInfo,"void setTextSelection(int start, int end)", Sets the text selection start and end.
+android.view.accessibility.AccessibilityRecord,int getToIndex(), Gets the index of text selection end or the index of the last visible item when scrolling.
+android.view.accessibility.AccessibilityRecord,void setToIndex(int toIndex), Sets the index of text selection end or the index of the last visible item when scrolling.
+android.view.animation.Animation.AnimationListener,abstract void onAnimationEnd(Animation animation), Notifies the end of the animation.
+android.view.animation.Animation,boolean getFillAfter()," If fillAfter is true, this animation will apply its transformation after the end time of the animation."
+android.view.animation.Animation,int getRepeatMode(), Defines what this animation should do when it reaches the end.
+android.view.animation.Animation,void setRepeatMode(int repeatMode), Defines what this animation should do when it reaches the end.
+android.view.animation.AnimationSet,void setRepeatMode(int repeatMode), Defines what this animation should do when it reaches the end.
+android.view.FrameStats,final long getEndTimeNano(), Gets the end time of the interval for which these statistics apply.
+android.view.ScaleGestureDetector.OnScaleGestureListener,abstract void onScaleEnd(ScaleGestureDetector detector), Responds to the end of a scale gesture.
+android.view.ScaleGestureDetector.SimpleOnScaleGestureListener,void onScaleEnd(ScaleGestureDetector detector), Responds to the end of a scale gesture.
+android.view.textclassifier.logging.SelectionEvent,int getEnd(), Returns the end index of this events token relative to the index of the start selection event in the selection session.
+android.view.textclassifier.logging.SelectionEvent,int getSmartEnd(), Returns the end index of this events token relative to the index of the smart selection event in the selection session.
+android.view.textclassifier.TextClassifier,"default TextSelection suggestSelection(CharSequence text, int selectionStartIndex, int selectionEndIndex, TextSelection.Options options)"," Returns suggested text selection start and end indices, recognized entity types, and their associated confidence scores."
+android.view.textclassifier.TextClassifier,"default TextSelection suggestSelection(CharSequence text, int selectionStartIndex, int selectionEndIndex)"," Returns suggested text selection start and end indices, recognized entity types, and their associated confidence scores."
+android.view.textclassifier.TextLinks.TextLink,int getEnd(), Returns the end index of this link in the original text.
+android.view.textclassifier.TextSelection,int getSelectionEndIndex(), Returns the end index of the text selection.
+android.view.View,int getPaddingEnd(), Returns the end padding of this view depending on its resolved layout direction.
+android.view.ViewGroup.MarginLayoutParams,int getMarginEnd(), Returns the end margin in pixels.
+android.view.ViewGroup.MarginLayoutParams,void setMarginEnd(int end), Sets the relative end margin.
+android.view.ViewStructure,abstract int getTextSelectionEnd()," Retrieve the last selection end set by setText(CharSequence, int, int)."

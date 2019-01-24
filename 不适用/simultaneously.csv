@@ -1,0 +1,3 @@
+android.media.ImageWriter,int getMaxImages()," Maximum number of Images that can be dequeued from the ImageWriter simultaneously (for example, with dequeueInputImage())."
+android.media.MediaDrm,int getOpenSessionCount(), Return the number of MediaDrm sessions that are currently opened simultaneously among all MediaDrm instances for the active DRM scheme.
+android.media.SoundPool.Builder,SoundPool.Builder setMaxStreams(int maxStreams), Sets the maximum of number of simultaneous streams that can be played simultaneously.

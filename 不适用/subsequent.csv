@@ -1,0 +1,6 @@
+android.media.MediaExtractor,void selectTrack(int index)," Subsequent calls to readSampleData(ByteBuffer, int), getSampleTrackIndex() and getSampleTime() only retrieve information for the subset of tracks selected."
+android.media.MediaExtractor,void unselectTrack(int index)," Subsequent calls to readSampleData(ByteBuffer, int), getSampleTrackIndex() and getSampleTime() only retrieve information for the subset of tracks selected."
+android.view.View,void postInvalidate(), Cause an invalidate to happen on a subsequent cycle through the event loop.
+android.view.View,"void postInvalidate(int left, int top, int right, int bottom)", Cause an invalidate of the specified area to happen on a subsequent cycle through the event loop.
+android.view.View,"void postInvalidateDelayed(long delayMilliseconds, int left, int top, int right, int bottom)", Cause an invalidate of the specified area to happen on a subsequent cycle through the event loop.
+android.view.View,void postInvalidateDelayed(long delayMilliseconds), Cause an invalidate to happen on a subsequent cycle through the event loop.

@@ -1,0 +1,4 @@
+android.media.MediaCodec.CodecException,boolean isRecoverable()," Returns true if the codec cannot proceed further, but can be recovered by stopping, configuring, and starting again."
+android.webkit.ClientCertRequest,"abstract void proceed(PrivateKey privateKey, X509Certificate[] chain)", Proceed with the specified private key and client certificate chain.
+android.webkit.HttpAuthHandler,"void proceed(String username, String password)", Instructs the WebView to proceed with the authentication with the given credentials.
+android.webkit.SslErrorHandler,void proceed(), Proceed with the SSL certificate.

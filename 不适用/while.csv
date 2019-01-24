@@ -1,0 +1,23 @@
+android.app.Activity,int getChangingConfigurations()," If this activity is being destroyed because it can not handle a configuration parameter being changed (and thus its onConfigurationChanged(Configuration) method is not being called), then you can use this method to discover the set of changes that have occurred while in the process of being destroyed."
+android.app.Activity,final MediaController getMediaController(), Gets the controller which should be receiving media key and volume events while this activity is in the foreground.
+android.app.Activity,void onConfigurationChanged(Configuration newConfig), Called by the system when the device configuration changes while your activity is running.
+android.app.Fragment,void onConfigurationChanged(Configuration newConfig), Called by the system when the device configuration changes while your component is running.
+android.app.Notification.Action.WearableExtender,CharSequence getInProgressLabel(), Get the label to display while the wearable is preparing to automatically execute the action.
+android.app.Notification.Action.WearableExtender,Notification.Action.WearableExtender setInProgressLabel(CharSequence label), Set a label to display while the wearable is preparing to automatically execute the action.
+android.media.MediaPlayer,void setScreenOnWhilePlaying(boolean screenOn), Control whether we should use the attached SurfaceHolder to keep the screen on while video playback is occurring.
+android.media.MediaRecorder.OnErrorListener,"abstract void onError(MediaRecorder mr, int what, int extra)", Called when an error occurs while recording.
+android.media.MediaRecorder,void setOnErrorListener(MediaRecorder.OnErrorListener l), Register a callback to be invoked when an error occurs while recording.
+android.media.MediaRecorder,void setOnInfoListener(MediaRecorder.OnInfoListener listener), Register a callback to be invoked when an informational event occurs while recording.
+android.media.tv.TvRecordingClient.RecordingCallback,void onConnectionFailed(String inputId), This is called when an error occurred while establishing a connection to the recording session for the corresponding TV input.
+android.media.tv.TvView.TvInputCallback,void onConnectionFailed(String inputId), This is invoked when an error occurred while establishing a connection to the underlying TV input.
+android.net.ConnectivityManager,int getRestrictBackgroundStatus(), Determines if the calling application is subject to metered network restrictions while running on background.
+android.view.animation.Animation,int getZAdjustment(), Returns the Z ordering mode to use while running the animation as previously set by setZAdjustment(int).
+android.view.animation.Animation,void setDetachWallpaper(boolean detachWallpaper)," If detachWallpaper is true, and this is a window animation of a window that has a wallpaper background, then the window will be detached from the wallpaper while it runs."
+android.view.animation.Animation,void setZAdjustment(int zAdjustment), Set the Z ordering mode to use while running the animation.
+android.view.LayoutInflater,void setFactory(LayoutInflater.Factory factory), Attach a custom Factory interface for creating views while using this LayoutInflater.
+android.view.SurfaceHolder,abstract void setKeepScreenOn(boolean screenOn), Enable or disable option to keep the screen turned on while this surface is displayed.
+android.view.View,void setFocusableInTouchMode(boolean focusableInTouchMode), Set whether this view can receive focus while in touch mode.
+android.webkit.WebChromeClient,View getVideoLoadingProgressView(), Obtains a View to be displayed while buffering of full screen video is taking place.
+android.webkit.WebView,"void onProvideAutofillVirtualStructure(ViewStructure structure, int flags)"," Populates a ViewStructure containing virtual children to fullfil an autofill request. The ViewStructure traditionally represents a View, while for web pages it represent HTML nodes."
+android.webkit.WebViewClient,"void onReceivedHttpError(WebView view, WebResourceRequest request, WebResourceResponse errorResponse)", Notify the host application that an HTTP error has been received from the server while loading a resource.
+android.webkit.WebViewClient,"void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error)", Notify the host application that an SSL error occurred while loading a resource.

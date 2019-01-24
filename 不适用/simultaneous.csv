@@ -1,0 +1,2 @@
+android.media.JetPlayer,static int getMaxTracks(), Returns the maximum number of simultaneous MIDI tracks supported by JetPlayer
+android.media.SoundPool.Builder,SoundPool.Builder setMaxStreams(int maxStreams), Sets the maximum of number of simultaneous streams that can be played simultaneously.

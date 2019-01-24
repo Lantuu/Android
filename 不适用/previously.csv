@@ -1,0 +1,62 @@
+android.animation.Animator.AnimatorPauseListener,abstract void onAnimationResume(Animator animation)," Notifies that the animation was resumed, after being previously paused."
+android.animation.AnimatorListenerAdapter,void onAnimationResume(Animator animation)," Notifies that the animation was resumed, after being previously paused."
+android.app.ActionBar.Tab,abstract View getCustomView(), Retrieve a previously set custom view for this tab.
+android.app.Activity,void finishActivity(int requestCode)," Force finish another activity that you had previously started with startActivityForResult(Intent, int)."
+android.app.Activity,Object getLastNonConfigurationInstance(), Retrieve the non-configuration instance data that was previously returned by onRetainNonConfigurationInstance().
+android.app.Activity,void stopLocalVoiceInteraction(), Request to terminate the current voice interaction that was previously started using startLocalVoiceInteraction(Bundle).
+android.app.Fragment,void onDestroyView()," Called when the view previously created by onCreateView(LayoutInflater, ViewGroup, Bundle) has been detached from the fragment."
+android.app.FragmentTransaction,abstract FragmentTransaction attach(Fragment fragment), Re-attach a fragment after it had previously been detached from the UI with detach(Fragment).
+android.app.FragmentTransaction,abstract FragmentTransaction show(Fragment fragment), Shows a previously hidden fragment.
+android.media.AsyncPlayer,void stop(), Stop a previously played sound.
+android.media.AudioManager,void unregisterAudioDeviceCallback(AudioDeviceCallback callback), Unregisters an AudioDeviceCallback object which has been previously registered to receive notifications of changes to the set of connected audio devices.
+android.media.AudioManager,void unregisterAudioPlaybackCallback(AudioManager.AudioPlaybackCallback cb)," Unregister an audio playback callback previously registered with registerAudioPlaybackCallback(AudioPlaybackCallback, Handler)."
+android.media.AudioManager,void unregisterAudioRecordingCallback(AudioManager.AudioRecordingCallback cb)," Unregister an audio recording callback previously registered with registerAudioRecordingCallback(AudioRecordingCallback, Handler)."
+android.media.AudioRecord.OnRecordPositionUpdateListener,abstract void onMarkerReached(AudioRecord recorder), Called on the listener to notify it that the previously set marker has been reached by the recording head.
+android.media.AudioRecord,void removeOnRoutingChangedListener(AudioRouting.OnRoutingChangedListener listener), Removes an AudioRouting.OnRoutingChangedListener which has been previously added to receive rerouting notifications.
+android.media.AudioRecord,void setRecordPositionUpdateListener(AudioRecord.OnRecordPositionUpdateListener listener), Sets the listener the AudioRecord notifies when a previously set marker is reached or for each periodic record head position update.
+android.media.AudioRecord,"void setRecordPositionUpdateListener(AudioRecord.OnRecordPositionUpdateListener listener, Handler handler)", Sets the listener the AudioRecord notifies when a previously set marker is reached or for each periodic record head position update.
+android.media.AudioRouting,abstract void removeOnRoutingChangedListener(AudioRouting.OnRoutingChangedListener listener), Removes an AudioRouting.OnRoutingChangedListener which has been previously added to receive rerouting notifications.
+android.media.AudioTrack.OnPlaybackPositionUpdateListener,abstract void onMarkerReached(AudioTrack track), Called on the listener to notify it that the previously set marker has been reached by the playback head.
+android.media.AudioTrack,void removeOnRoutingChangedListener(AudioRouting.OnRoutingChangedListener listener), Removes an AudioRouting.OnRoutingChangedListener which has been previously added to receive rerouting notifications.
+android.media.AudioTrack,void removeStreamEventCallback()," Unregisters the callback for notification of stream events, previously set by setStreamEventCallback(Executor, StreamEventCallback)."
+android.media.AudioTrack,"void setPlaybackPositionUpdateListener(AudioTrack.OnPlaybackPositionUpdateListener listener, Handler handler)", Sets the listener the AudioTrack notifies when a previously set marker is reached or for each periodic playback head position update.
+android.media.AudioTrack,void setPlaybackPositionUpdateListener(AudioTrack.OnPlaybackPositionUpdateListener listener), Sets the listener the AudioTrack notifies when a previously set marker is reached or for each periodic playback head position update.
+android.media.MediaDrm,void closeSession(byte[] sessionId), Close a session on the MediaDrm object that was previously opened with openSession().
+android.media.MediaPlayer,void removeOnRoutingChangedListener(AudioRouting.OnRoutingChangedListener listener), Removes an AudioRouting.OnRoutingChangedListener which has been previously added to receive rerouting notifications.
+android.media.MediaRecorder,void removeOnRoutingChangedListener(AudioRouting.OnRoutingChangedListener listener), Removes an AudioRouting.OnRoutingChangedListener which has been previously added to receive rerouting notifications.
+android.media.RemoteController.OnClientUpdateListener,abstract void onClientChange(boolean clearing)," Called whenever all information, previously received through the other methods of the listener, is no longer valid and is about to be refreshed."
+android.media.RingtoneManager,void setStopPreviousRingtone(boolean stopPreviousRingtone), Whether retrieving another Ringtone will stop playing the previously retrieved Ringtone.
+android.media.SoundPool,final void autoResume(), Resume all previously active streams.
+android.media.tv.TvContentRating,static TvContentRating unflattenFromString(String ratingString), Recovers a TvContentRating object from the string that was previously created from flattenToString().
+android.net.ConnectivityManager,void removeDefaultNetworkActiveListener(ConnectivityManager.OnNetworkActiveListener l), Remove network active listener previously registered with addDefaultNetworkActiveListener(ConnectivityManager.OnNetworkActiveListener).
+android.net.ConnectivityManager,void unregisterNetworkCallback(PendingIntent operation)," Unregisters a callback previously registered via registerNetworkCallback(NetworkRequest, android.app.PendingIntent)."
+android.net.IpSecManager.SecurityParameterIndex,void close(), Release an SPI that was previously reserved.
+android.net.Uri.Builder,Uri.Builder clearQuery(), Clears the the previously set query.
+android.net.Uri.Builder,Uri.Builder encodedAuthority(String authority), Sets the previously encoded authority.
+android.net.Uri.Builder,Uri.Builder encodedFragment(String fragment), Sets the previously encoded fragment.
+android.net.Uri.Builder,Uri.Builder encodedOpaquePart(String opaquePart), Sets the previously encoded opaque scheme-specific-part.
+android.net.Uri.Builder,Uri.Builder encodedPath(String path), Sets the previously encoded path.
+android.net.Uri.Builder,Uri.Builder encodedQuery(String query), Sets the previously encoded query.
+android.net.wifi.WifiManager,"boolean enableNetwork(int netId, boolean attemptConnect)", Allow a previously configured network to be associated with.
+android.view.accessibility.CaptioningManager,void removeCaptioningChangeListener(CaptioningManager.CaptioningChangeListener listener), Removes a listener previously added using addCaptioningChangeListener(CaptioningManager.CaptioningChangeListener).
+android.view.animation.Animation,int getZAdjustment(), Returns the Z ordering mode to use while running the animation as previously set by setZAdjustment(int).
+android.view.Choreographer,void removeFrameCallback(Choreographer.FrameCallback callback), Removes a previously posted frame callback.
+android.view.inputmethod.InputConnection,abstract boolean commitCompletion(CompletionInfo text)," Commit a completion the user has selected from the possible ones previously reported to InputMethodSession#displayCompletions(CompletionInfo[]) or InputMethodManager#displayCompletions(View, CompletionInfo[])."
+android.view.inputmethod.InputConnection,abstract boolean endBatchEdit(), Tell the editor that you are done with a batch edit previously initiated with beginBatchEdit().
+android.view.inputmethod.InputConnectionWrapper,boolean commitCompletion(CompletionInfo text)," Commit a completion the user has selected from the possible ones previously reported to InputMethodSession#displayCompletions(CompletionInfo[]) or InputMethodManager#displayCompletions(View, CompletionInfo[])."
+android.view.inputmethod.InputConnectionWrapper,boolean endBatchEdit(), Tell the editor that you are done with a batch edit previously initiated with beginBatchEdit().
+android.view.inputmethod.InputMethod,abstract void revokeSession(InputMethodSession session), Disable and destroy a session that was previously created with createSession(android.view.inputmethod.InputMethod.SessionCallback).
+android.view.inputmethod.InputMethod,abstract void unbindInput()," Unbind an application environment, called when the information previously set by bindInput(InputBinding) is no longer valid for this input method."
+android.view.SurfaceHolder,abstract void removeCallback(SurfaceHolder.Callback callback), Removes a previously added Callback interface from this holder.
+android.view.View,final void cancelPendingInputEvents(), Cancel any deferred high-level input events that were previously posted to the event queue.
+android.view.ViewStructure,"abstract void setTextLines(int[] charOffsets, int[] baselines)", Set line information for test that was previously supplied through setText(CharSequence).
+android.view.ViewStructure,"abstract void setTextStyle(float size, int fgColor, int bgColor, int style)", Explicitly set default global style information for text that was previously set with setText(CharSequence).
+android.view.ViewTreeObserver,void removeOnDrawListener(ViewTreeObserver.OnDrawListener victim), Remove a previously installed pre-draw callback.
+android.view.ViewTreeObserver,void removeOnGlobalFocusChangeListener(ViewTreeObserver.OnGlobalFocusChangeListener victim), Remove a previously installed focus change callback.
+android.view.ViewTreeObserver,void removeOnGlobalLayoutListener(ViewTreeObserver.OnGlobalLayoutListener victim), Remove a previously installed global layout callback
+android.view.ViewTreeObserver,void removeOnPreDrawListener(ViewTreeObserver.OnPreDrawListener victim), Remove a previously installed pre-draw callback
+android.view.ViewTreeObserver,void removeOnScrollChangedListener(ViewTreeObserver.OnScrollChangedListener victim), Remove a previously installed scroll-changed callback
+android.view.ViewTreeObserver,void removeOnTouchModeChangeListener(ViewTreeObserver.OnTouchModeChangeListener victim), Remove a previously installed touch mode change callback
+android.view.ViewTreeObserver,void removeOnWindowAttachListener(ViewTreeObserver.OnWindowAttachListener victim), Remove a previously installed window attach callback.
+android.view.ViewTreeObserver,void removeOnWindowFocusChangeListener(ViewTreeObserver.OnWindowFocusChangeListener victim), Remove a previously installed window focus change callback.
+android.webkit.WebView,void removeJavascriptInterface(String name), Removes a previously injected Java object from this WebView.

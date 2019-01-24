@@ -1,0 +1,27 @@
+android.media.MediaMetadataEditor,void clear(), Clears all the pending metadata changes set since the MediaMetadataEditor instance was created or since this method was last called.
+android.media.MediaRecorder,int getMaxAmplitude(), Returns the maximum absolute amplitude that was sampled since the last call to this method.
+android.media.RingtoneManager,void stopPreviousRingtone(), Stops playing the last Ringtone retrieved from this.
+android.media.session.PlaybackState,long getLastPositionUpdateTime(), Get the elapsed real time at which position was last updated.
+android.net.Uri,abstract String getLastPathSegment(), Gets the decoded last segment in the path.
+android.net.wifi.WifiEnterpriseConfig,X509Certificate[] getClientCertificateChain(), Get the complete client certificate chain in the same order as it was last supplied.
+android.net.wifi.WifiManager,DhcpInfo getDhcpInfo()," Return the DHCP-assigned addresses from the last successful DHCP request, if any."
+android.view.accessibility.AccessibilityRecord,int getToIndex(), Gets the index of text selection end or the index of the last visible item when scrolling.
+android.view.accessibility.AccessibilityRecord,void setToIndex(int toIndex), Sets the index of text selection end or the index of the last visible item when scrolling.
+android.view.animation.Animation,long computeDurationHint()," Compute a hint at how long the entire animation may last, in milliseconds."
+android.view.animation.Animation,long getDuration(), How long this animation should last
+android.view.animation.Animation,void setDuration(long durationMillis), How long this animation should last.
+android.view.VelocityTracker,float getXVelocity(int id), Retrieve the last computed X velocity.
+android.view.VelocityTracker,float getXVelocity(), Retrieve the last computed X velocity.
+android.view.VelocityTracker,float getYVelocity(), Retrieve the last computed Y velocity.
+android.view.VelocityTracker,float getYVelocity(int id), Retrieve the last computed Y velocity.
+android.view.View,"boolean dispatchUnhandledMove(View focused, int direction)", This method is the last chance for the focused view and its ancestors to respond to an arrow key.
+android.view.View,int getSystemUiVisibility(), Returns the last setSystemUiVisibility(int) that this view has requested.
+android.view.View,boolean isDirty(), True if this view has changed since the last time being drawn.
+android.view.View,boolean isLaidOut(), Returns true if this view has been through at least one layout since it was last attached to or detached from a window.
+android.view.ViewGroup,"boolean dispatchUnhandledMove(View focused, int direction)", This method is the last chance for the focused view and its ancestors to respond to an arrow key.
+android.view.ViewStructure,abstract CharSequence getHint(), Retrieve the last hint set by setHint(CharSequence).
+android.view.ViewStructure,abstract CharSequence getText(), Retrieve the last setText(CharSequence).
+android.view.ViewStructure,abstract int getTextSelectionEnd()," Retrieve the last selection end set by setText(CharSequence, int, int)."
+android.view.ViewStructure,abstract int getTextSelectionStart()," Retrieve the last selection start set by setText(CharSequence, int, int)."
+android.webkit.WebView,void requestFocusNodeHref(Message hrefMsg), Requests the anchor or image element URL at the last tapped point.
+android.webkit.WebView,void requestImageRef(Message msg), Requests the URL of the image last touched by the user.
